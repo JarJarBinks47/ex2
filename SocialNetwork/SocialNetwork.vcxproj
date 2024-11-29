@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{316e8c6d-4a40-45d8-9489-d06f30ecee87}</ProjectGuid>
-    <RootNamespace>SocialNetwrok</RootNamespace>
+    <ProjectGuid>{edebd7c4-16cb-4ba9-a4ee-0c3aeb11dd57}</ProjectGuid>
+    <RootNamespace>SocialNetwork</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Social Netwrok.cpp" />
+    <ClCompile Include="Device.cpp" />
+    <ClCompile Include="DeviceList.cpp" />
+    <ClCompile Include="Page.cpp" />
+    <ClCompile Include="Profile.cpp" />
+    <ClCompile Include="ProfileList.cpp" />
+    <ClCompile Include="SocialNetwork.cpp" />
+    <ClCompile Include="test1Device.cpp" />
+    <ClCompile Include="test2User.cpp" />
+    <ClCompile Include="test3Profile.cpp" />
+    <ClCompile Include="Tester.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserList.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="DeviceList.h" />
+    <ClInclude Include="Page.h" />
+    <ClInclude Include="Profile.h" />
+    <ClInclude Include="ProfileList.h" />
+    <ClInclude Include="SocialNetwork.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="UserList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
